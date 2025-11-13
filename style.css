@@ -81,6 +81,7 @@ button {
 .information {
     display: flex;
     flex-direction: column;
+    margin-bottom: 80px;
 }
 
 .information-title {
@@ -116,4 +117,66 @@ button {
 .box-text {
     color: #1F2937;
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 60px 300px 60px 300px;
+}
+
+.quote-top {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-bottom {
+    font-size: 24px;
+    font-weight: 800;
+    color:#1F2937;
+    text-align: right;
+}
+
+.action {
+    display: flex;
+    background-color: #3882F6;
+    margin: 100px 180px 100px 180px;
+    border-radius: 8px;
+    justify-content: space-between;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 120px 30px 120px;
+}
+
+.action-title {
+    font-size: 24px;
+    color:#E5E7EB;
+    font-weight: 900;
+    margin: 5px;
+}
+
+.action-subtitle {
+    margin: 5px;
+}
+
+.button-box {
+    display: flex;
+    align-items: center;
+    padding: 10px 100px 10px 100px;
+}
+
+.action-button {
+    border: 2px solid #E5E7EB;
+}
+
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 60px;
 }
