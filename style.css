@@ -1,0 +1,119 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+a,
+p {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    border-bottom: #E5E7EB;
+    border-width: 1px;
+    padding: 0 150px 0 150px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.right-links {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+    gap: 24px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.awesome {
+    display: flex;
+    padding: 80px 150px 80px 150px;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+    padding-right: 80px;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.right {
+    width: 400px;
+    height: auto;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+}
+
+.information-title {
+    font-size: 36px;
+    color: 1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 30px;
+}
+
+.boxes {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 166px;
+}
+
+.border {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #3882F6;
+    border-radius: 18px;
+    background-color: white;
+}
+
+.box-text {
+    color: #1F2937;
+    text-align: center;
+}
